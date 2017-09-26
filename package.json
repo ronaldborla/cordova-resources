@@ -1,0 +1,14 @@
+{
+  "name": "resources",
+  "version": "1.0.0",
+  "description": "Resources generator for cordova",
+  "main": "index.js",
+  "author": "Ronald Borla",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^4.0.2",
+    "image-layers": "^1.0.1",
+    "lodash": "^4.17.4",
+    "path": "^0.12.7"
+  }
+}

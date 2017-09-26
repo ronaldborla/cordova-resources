@@ -1,0 +1,69 @@
+{
+  "format": {
+    "target": "png"
+  },
+  "platforms": {
+    "android": {
+      "icon": {
+        "source": "/android/icon.png",
+        "targets": {
+          "drawable-hdpi-icon": "72x72",
+          "drawable-ldpi-icon": "36x36",
+          "drawable-mdpi-icon": "48x48",
+          "drawable-xhdpi-icon": "96x96",
+          "drawable-xxhdpi-icon": "144x144",
+          "drawable-xxxhdpi-icon": "192x192"
+        }
+      },
+      "splash": {
+        "source": "/splash.png",
+        "targets": {
+          "drawable-port-hdpi-screen": "480x800",
+          "drawable-port-ldpi-screen": "240x320",
+          "drawable-port-mdpi-screen": "320x480",
+          "drawable-port-xhdpi-screen": "720x1280",
+          "drawable-port-xxhdpi-screen": "960x1600",
+          "drawable-port-xxxhdpi-screen": "1280x1920"
+        }
+      }
+    },
+    "ios": {
+      "icon": {
+        "source": "/ios/icon.png",
+        "targets": {
+          "icon-40": "40x40",
+          "icon-40@2x": "80x80",
+          "icon-40@3x": "120x120",
+          "icon-50": "50x50",
+          "icon-50@2x": "100x100",
+          "icon-60": "60x60",
+          "icon-60@2x": "120x120",
+          "icon-60@3x": "180x180",
+          "icon-72": "72x72",
+          "icon-72@2x": "144x144",
+          "icon-76": "76x76",
+          "icon-76@2x": "152x152",
+          "icon-83.5@2x": "167x167",
+          "icon-1024": "1024x1024",
+          "icon-small": "29x29",
+          "icon-small@2x": "58x58",
+          "icon-small@3x": "87x87",
+          "icon": "57x57",
+          "icon@2x": "114x114"
+        }
+      },
+      "splash": {
+        "source": "/splash.png",
+        "targets": {
+          "Default-568h@2x~iphone": "640x1136",
+          "Default-667h": "750x1334",
+          "Default-736h": "1242x2208",
+          "Default-Portrait@2x~ipad": "1536x2048",
+          "Default-Portrait~ipad": "768x1024",
+          "Default@2x~iphone": "640x960",
+          "Default~iphone": "320x480"
+        }
+      }
+    }
+  }
+}
